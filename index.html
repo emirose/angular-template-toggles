@@ -6,9 +6,17 @@
     <script src="js/build/bundle.js"></script>
   </head>
   <body>
-    <h2> Here's a directive with new styles:</h2>
-    <sample-directive new-styles="true"></sample-directive>
-    <h2> Here's a directive with old styles: </h2>
-    <sample-directive new-styles="false"></sample-directive>
+    <div> Version1 
+      <h2> Here's a directive with new styles:</h2>
+      <sample-directive-v1 new-styles="true"></sample-directive-v1>
+      <h2> Here's a directive with old styles: </h2>
+      <sample-directive-v1 new-styles="false"></sample-directive-v1>
+    </div>
+    <div> Version2 
+      <h2> Here's a directive with new styles:</h2>
+      <sample-directive-v2-new></sample-directive-v2-new>
+      <h2> Here's a directive with old styles: </h2>
+      <sample-directive-v2></sample-directive-v2>
+    </div>
   </body>
 </html>
